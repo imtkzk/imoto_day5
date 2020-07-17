@@ -61,5 +61,9 @@ export default {
   prettier: {
     singleQuote: true,
     semi: false
+  },
+  // ビルド後のフォルダ名
+  generate: {
+    dir: "docs"
   }
 };
